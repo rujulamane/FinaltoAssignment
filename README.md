@@ -1,5 +1,7 @@
 # Async File Logger
 This system implements an asynchronous, thread-safe logging mechanism in Java.
+
+
 The logger:
 1. Accepts log messages from multiple threads.
 2. Writes all log messages into a single file.
