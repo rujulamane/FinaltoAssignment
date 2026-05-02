@@ -51,7 +51,7 @@ Each log entry includes:
 - Log message
 
 Example:
-[2026-05-02 16:45:37.963] [pool-1-thread-4] Log message number 4, I have added Output file also( application.log) 
+[2026-05-02 16:45:37.963] [pool-1-thread-4] Log message number 4.
 
 ## Project Structure
 
