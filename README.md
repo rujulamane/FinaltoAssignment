@@ -1,11 +1,11 @@
 # Async File Logger
 This system implements an asynchronous, thread-safe logging mechanism in Java.
 The logger:
-1. Accepts the logs from multiple threads.
-2. Write into one file.
-3. Keeps the correct order of logs.
-4. Does not slow down thread.
-
+1. Accepts log messages from multiple threads.
+2. Writes all log messages into a single file.
+3. Preserves log order based on the order messages are accepted by the logger.
+4. Minimizes blocking for producer threads.
+   
 ## Problem Statement
 let's consider 5 threads are writting :
    Thread 1-> A
@@ -67,6 +67,8 @@ java LoggerDemo
 
 Check output file:
 type application.log  
+
+
 
 ## Testing Strategy
 Positive Tests
