@@ -23,7 +23,7 @@ To solve these issues Use a Producer–Consumer Design. so basically Threads = P
 
 Flow will be:  Producer Threads → BlockingQueue → Writer Thread → File.
 
-Key Features:
+## Key Features:
 1. Thread Safety
 - Uses `BlockingQueue` to handle concurrent log submissions
 - Avoids explicit synchronization
